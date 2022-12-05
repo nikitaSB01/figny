@@ -262,14 +262,13 @@ p2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #6c757d;
-  
-}
+  color: #6c757d; 
+}changed
 /*.....................................///СЕКЦИЯ 3...........................................*/
 /*..................................///ОСНОВНАЯ ЧАСТЬ САЙТ............................*/
 .main{
   background-color: #fff;
   font-style: italic;
   font-style: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
