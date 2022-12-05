@@ -1,0 +1,273 @@
+body {
+  max-width: 1219px;
+  width: 100%;
+  margin: 0px auto;
+  font-family: Roboto, sans-serif; /*Устанавливает семейство шрифта*/
+}
+/*..................................ШАПКА САЙТА....................................*/
+.container_shapka {
+  width: 100%; /*Устанавливает ширину содержимого элемента*/
+  max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
+  height: 56px; /*Устанавливает высоту содержимого элемента*/
+  top: 0; /*Расстояние от верхнего края родительского элемента до верхнего края дочернего элемента*/
+
+  margin-left: auto; /*Устанавливает величину отступа от левого края элемента*/
+  margin-right: auto; /*Устанавливает величину отступа от правого края элемента*/
+}
+.shapka {
+  width: 100%; /*Устанавливает ширину содержимого элемента*/
+  background-color: #343a40; /*Определяет цвет фона элемента*/
+  height: 56px; /*Устанавливает высоту содержимого элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+  position: fixed; /*Устанавливает способ позиционирования элемента относительно окна браузера или других объектов на веб-странице*/
+  top: 0; /*Расстояние от верхнего края родительского элемента до верхнего края дочернего элемента*/
+  z-index: 2;
+}
+.logo_shapka {
+  position: absolute;
+  left: 16px;
+  top: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.logo_s {
+  color: #ffffff;
+}
+.logo_s:link { 
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+  color: #ffffff;
+}
+.logo_s:hover {
+  color: rgb(252, 71, 71); /* Цвет ссылки */
+}
+.navigation_links {
+  position: absolute;
+  left: 82px;
+  top: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.navigation_link {
+  padding-right: 16px;
+  color: #ffffff;
+}
+.navigation_link:link {
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+  color: #ffffff;
+}
+.navigation_link:hover {
+  color: rgb(172, 61, 148); /* Цвет ссылки */
+}
+/*..................................///ШАПКА САЙТА....................................*/
+/*..................................ОСНОВНАЯ ЧАСТЬ САЙТ............................*/
+
+/*wrapper*/
+.main {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+/*content*/
+.content {
+  flex: 1 1 auto;
+  margin-top: 56px;
+  max-width: 1219px;
+}
+/*hi*/
+.section_1 {
+  background-color: aqua;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+/*container*/
+.container_section_1 {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+
+/*hi__row*/
+.content_container_section_1 {
+  display: flex;
+}
+/*hi__body////hi__image*/
+.bloc_1_section_1 {
+  color: aliceblue;
+}
+.element_1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+  color: #212529;
+}
+.text_section_1 {
+  padding-top: 8px;
+  padding-left: 6px;
+  max-width: 635px;
+  max-height: 58px;
+}
+.element_2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212529;
+}
+.button {
+  padding-top: 16px;
+  padding-left: 7px;
+}
+.element_3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+/*................................///СЕКЦИЯ 1...........................................*/
+/*................................СЕКЦИЯ 2...........................................*/
+p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.content_container_section_2 {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.bloc_1_section_2 {
+  margin-top: 32px;
+  margin-left: 55px;
+  display: block;
+  border: 2px solid #1c1c1d;
+  border-radius: 5px;
+}
+.card_1 {
+  max-width: 445px;
+  max-height: 234px;
+}
+.card-name {
+  padding-bottom: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.bloc_2_section_2 {
+  margin-top: 32px;
+  margin-left: 30px;
+  width: 100%;
+  max-width: 350px;
+  max-height: 165px;
+  display: block;
+}
+.card_2 {
+  width: 100%;
+  max-width: 350px;
+  max-height: 165px;
+  border: 2px solid #1c1c1d;
+  border-radius: 5px;
+}
+.card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.card-body {
+  box-sizing: border-box;
+  background-color: #d8d3d3;
+  padding: 20px auto 20px 20px;
+}
+/*................................///СЕКЦИЯ 2...........................................*/
+/*................................СЕКЦИЯ 3...........................................*/
+.section_3 {
+  padding: 32px 55px 73px 55px;
+}
+.container_section_3 {
+  width: 100%;
+  max-width: 1110px;
+  max-height: 551px;
+  margin: 0px 0px;
+}
+.content_container_section_3 {
+  display: flex;
+  z-index: 1;
+}
+.table {
+  width: 100%; /* Ширина таблицы */
+  border: 2px solid #dee2e6; /* Рамка вокруг таблицы */
+  border-collapse: collapse; /* Отображать только одинарные линии */
+}
+.header_table {
+  border: 1px solid #dee2e6;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.table .column_2 {
+  border: 1px solid #dee2e6;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.table tr td {
+  border: 1px solid #dee2e6;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #007bff;
+}
+
+.footer {
+  background-color: rgb(90, 90, 190);
+}
+.container {
+  display: flex;
+  height: 51px;
+  justify-content: center;
+  align-items: center;
+}
+.text_footer_container {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6c757d;
+}
+/*.....................................///СЕКЦИЯ 3...........................................*/
+/*..................................///ОСНОВНАЯ ЧАСТЬ САЙТ............................*/
+.main{
+  background-color: #fff;
+  font-style: italic;
+  font-style: 20px;
+}
